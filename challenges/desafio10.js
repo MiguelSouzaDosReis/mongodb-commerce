@@ -1,7 +1,7 @@
 db.produtos.find({
   $and: [
-    { proteínas: { $gte: 30 } },
-    { proteínas: { $lte: 40 } },
+    { "valoresNutricionais.3.percentual": { $gte: 30 } },
+    { "valoresNutricionais.3.percentual": { $lte: 40 } },
   ],
 }, {
   _id: 0,
