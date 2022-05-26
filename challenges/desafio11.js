@@ -1,7 +1,7 @@
 db.produtos.find({
-  $or: [
-    { curtidas: { $eq: 36 } },
-    { vendidos: { $eq: 85 } },
+  $nor: [
+    { nome: { $eq: "Big Mac" } },
+    { nome: { $eq: "McChicken" } },
   ],
 }, {
   _id: 0,
