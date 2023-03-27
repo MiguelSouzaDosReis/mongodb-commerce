@@ -1,6 +1,6 @@
 # Project Mongodb Commerce
 
-Neste projeto aprendi a como utilizar o MongoDb reliznado os desafios proposta pela Trybe se você quiser ver a minha solução para cada desafio basta olha na pasta challenges
+Neste projeto, pude aprofundar meus conhecimentos em banco de dados não relacionais utilizando o MongoDB, realizando os desafios propostos pela Trybe. Você pode conferir as minhas soluções para cada desafio na pasta "challenges".
 
 # Os desafios são:
 
